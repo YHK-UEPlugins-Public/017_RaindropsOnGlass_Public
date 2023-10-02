@@ -4,6 +4,8 @@
 
 **RaindropsOnGlass: Raindrops Effect on the Glass or the Camera Lens** 
 
+**Preview Video:** https://youtu.be/0vzOjzo6dVs
+
 ![FEATURED IMAGE](README/00_Res/01_Images/FEATURED%20IMAGE.png)
 
 # SHORT DESCRIPTION：
@@ -11,6 +13,8 @@
 This "**RaindropsOnGlass**" provides a simple way to create realistic raindrops effects in Unreal Engine, including static and rolling raindrops effect on character camera lens glass(Post Process Effect) and normal window glass(Normal Material Effect). Contains Post Process Effect and Glass Material Effect for simulating rolling rain droplets on glass. It is useful to a rainy day.
 
 # LONG DESCRIPTION：
+
+**Preview Video:** https://youtu.be/0vzOjzo6dVs
 
 **Documentation and Example Project:** https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public
 
