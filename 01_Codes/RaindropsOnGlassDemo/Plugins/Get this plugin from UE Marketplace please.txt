@@ -1,1 +1,0 @@
-LogicCell Plugin: https://github.com/YHK-UEPlugins-Public/013_LogicCell_Public

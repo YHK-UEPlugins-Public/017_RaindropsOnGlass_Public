@@ -1,5 +1,7 @@
 **Note:** There is a bug with the github DownloadZIP(".map" asset file are Git LFS file, Github DownloadZIP results in the ".map" file only 1KB).  **You should clone this repository by HTTPs or SSH of this git, Not by Github DownloadZIP.**
 
+**Note:** Download the "**RaindropsOnGlass**" AssetPack from UE Marketplace, and copy it into the "`\01_Codes\RaindropsOnGlassDemo\Content`".
+
 # PRODUCT TITLE：
 
 **RaindropsOnGlass: Raindrops Effect on the Glass or the Camera Lens** 

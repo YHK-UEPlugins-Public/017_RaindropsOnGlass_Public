@@ -3,13 +3,6 @@
 	"EngineAssociation": "5.1",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "RaindropsOnGlassDemo",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "DatasmithImporter",
