@@ -1,0 +1,1 @@
+**Note:** Download the "**RaindropsOnGlass**" AssetPack from UE Marketplace, and copy it's "`\Content\RaindropsOnGlass`" into this Example Project "`\01_Codes\RaindropsOnGlassDemo\Content\RaindropsOnGlass`".
