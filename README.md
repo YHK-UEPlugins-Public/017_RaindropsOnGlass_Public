@@ -6,7 +6,9 @@
 
 **RaindropsOnGlass: Raindrops Effect on the Glass or the Camera Lens** 
 
-**Preview Video:** https://youtu.be/0vzOjzo6dVs
+**Preview Video 01:** https://youtu.be/D8t9vL-gMa4
+
+**Preview Video 02:** https://youtu.be/0vzOjzo6dVs
 
 ![00 (20)](README/00_Res/01_Images/00%20(20).png)
 
@@ -16,13 +18,15 @@ This "**RaindropsOnGlass**" provides a simple way to create realistic raindrops 
 
 # LONG DESCRIPTION：
 
-**Preview Video:** https://youtu.be/0vzOjzo6dVs
+**Preview Video 01:** https://youtu.be/D8t9vL-gMa4
+
+**Preview Video 02:** https://youtu.be/0vzOjzo6dVs
 
 **Documentation and Example Project:** https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public
 
 This "**RaindropsOnGlass**" offers a simple and easy-to-use method for creating realistic raindrop effects in Unreal Engine games. 
 
-Using advanced materials and shader techniques, this plugin achieves a realistic raindrops effect, adding immersion and realism to your game scene. This plugin includes static and rolling raindrops effect on character camera lens glass(Post Process Effect) and normal window glass(Normal Material Effect).
+Using advanced materials and shader techniques, this asset pack achieves a realistic raindrops effect, adding immersion and realism to your game scene. This asset pack includes static and rolling raindrops effect on character camera lens glass(Post Process Effect) and normal window glass(Normal Material Effect).
 
 This "**RaindropsOnGlass**" provides a wealth of parameters and options that allow developers to customize the size, density, speed, and other attributes of raindrops as needed.
 
@@ -43,6 +47,18 @@ Contains Post Process Effect and Glass Material Effect for simulating rolling ra
 ![00 (1)](README/00_Res/01_Images/00%20(1).png)
 
 ![00 (21)](README/00_Res/01_Images/00%20(21).png)
+
+![000_GALLERY_06](README/00_Res/01_Images/000_GALLERY_06.jpg)
+
+![000_GALLERY_07](README/00_Res/01_Images/000_GALLERY_07.jpg)
+
+![000_GALLERY_08](README/00_Res/01_Images/000_GALLERY_08.jpg)
+
+![000_GALLERY_01](README/00_Res/01_Images/000_GALLERY_01.jpg)
+
+![000_GALLERY_02](README/00_Res/01_Images/000_GALLERY_02.jpg)
+
+![000_GALLERY_03](README/00_Res/01_Images/000_GALLERY_03.jpg)
 
 ![00 (3)](README/00_Res/01_Images/00%20(3).png)
 
