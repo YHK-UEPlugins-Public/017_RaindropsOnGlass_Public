@@ -6,7 +6,11 @@
 
 **RaindropsOnGlass: Raindrops Effect on the Glass or the Camera Lens** 
 
-**Preview Video 01:** https://youtu.be/D8t9vL-gMa4
+**Preview Video 01:** 
+
+Youtube: https://youtu.be/D8t9vL-gMa4
+
+Bilibili: https://www.bilibili.com/video/BV13C4y1Z74j
 
 **Preview Video 02:** https://youtu.be/0vzOjzo6dVs
 
@@ -18,7 +22,11 @@ This "**RaindropsOnGlass**" provides a simple way to create realistic raindrops 
 
 # LONG DESCRIPTION：
 
-**Preview Video 01:** https://youtu.be/D8t9vL-gMa4
+**Preview Video 01:** 
+
+Youtube: https://youtu.be/D8t9vL-gMa4
+
+Bilibili: https://www.bilibili.com/video/BV13C4y1Z74j
 
 **Preview Video 02:** https://youtu.be/0vzOjzo6dVs
 
