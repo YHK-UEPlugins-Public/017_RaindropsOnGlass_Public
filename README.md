@@ -124,6 +124,10 @@ In this lighting mode, when directional light shines from the front of the glass
 
 ![image-20231216221039880](README/00_Res/01_Images/image-20231216221039880.png)
 
+**Result**:
+
+<video src="README/00_Res/01_Images/LightModeIsSurfaceTranslucencyVolume.mp4"></video>
+
 # GALLERY
 
 ![00 (1)](README/00_Res/01_Images/00%20(1).png)
