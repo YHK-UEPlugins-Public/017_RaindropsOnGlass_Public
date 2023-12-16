@@ -11,16 +11,11 @@
 **DemoVideos**:
 
 - **Video 01:** 
-
 ​		Youtube: https://youtu.be/D8t9vL-gMa4
-
 ​		Bilibili: https://www.bilibili.com/video/BV13C4y1Z74j
-
 - **Video 02:** https://youtu.be/0vzOjzo6dVs
 
 **Get this AssetPack from UE Marketplace:** https://www.unrealengine.com/marketplace/en-US/product/raindropsonglass-raindrops-effect-on-the-glass-or-the-camera-lens
-
-
 
 # Introduce
 
@@ -127,8 +122,7 @@ In this lighting mode, when directional light shines from the front of the glass
 **Result**:
 
 <video src="README/00_Res/01_Images/LightModeIsSurfaceTranslucencyVolume.mp4"></video>
-<video src='https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public/blob/main/README/00_Res/01_Images/LightModeIsSurfaceTranslucencyVolume.mp4' width=180/>
-<video src="https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public/blob/main/README/00_Res/01_Images/LightModeIsSurfaceTranslucencyVolume.mp4"></video>
+<video src='https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public/assets/10463421/2f31c441-6c11-4a8c-9a31-8903eaefbe3f' width=180/>
 
 # GALLERY
 
