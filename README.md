@@ -127,6 +127,8 @@ In this lighting mode, when directional light shines from the front of the glass
 **Result**:
 
 <video src="README/00_Res/01_Images/LightModeIsSurfaceTranslucencyVolume.mp4"></video>
+<video src='https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public/blob/main/README/00_Res/01_Images/LightModeIsSurfaceTranslucencyVolume.mp4' width=180/>
+<video src="https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public/blob/main/README/00_Res/01_Images/LightModeIsSurfaceTranslucencyVolume.mp4"></video>
 
 # GALLERY
 
