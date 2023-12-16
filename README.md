@@ -86,7 +86,17 @@ Contains Post Process Effect and Glass Material Effect for simulating rolling ra
 
 **TypeD Material Instance**: '`/Game/RaindropsOnGlass/ASTs/MIs/MI_RaindropsOnGlass_TypeD_BasicGlass_PCG_Inst`'
 
-**Solution**: To increase the brightness of raindrops and prevent them from appearing too dark, you can increase the “**RaindropsColorScale**” property value in the material. For instance, if the default value is “0.75,” you might try adjusting it to “4.0” or "6.0".
+### **Reason Analysis**:
+
+"**LightMode**" is: “**Surface ForwardShading**”(DefaultValue)
+
+In this lighting mode, when directional light shines from the front of the glass, the water droplets on the glass appear normal. However, when the directional light comes from behind the glass, the water droplets appear darker. You might try switching the glass material to a different lighting mode.
+
+![image-20231216175157739](README/00_Res/01_Images/image-20231216175157739.png)
+
+### Solutions: Recommend using "Solution 02".
+
+#### **Solution 01**: To increase the brightness of raindrops and prevent them from appearing too dark, you can increase the “**RaindropsColorScale**” property value in the material. For instance, if the default value is “0.75,” you might try adjusting it to “4.0” or "6.0".
 
 "RaindropsColorScale": 0.75(Default Value)
 
@@ -100,11 +110,19 @@ Contains Post Process Effect and Glass Material Effect for simulating rolling ra
 
 ![image-20231216180656676](README/00_Res/01_Images/image-20231216180656676.png)
 
-**LightMode**: “**Surface ForwardShading**”(DefaultValue)
+#### **Solution 02**: Change the "**LightMode**" of Material to "Surface TranslucencyVolume", and set the “**RaindropsColorScale**” property value in the material instance to "1.0" or "2.0". Appropriately adjust the value of the "**OpacityOverride(0-1)**" property in the Material Instance, such as lowering it to: "0.005".
 
-In this lighting mode, when directional light shines from the front of the glass, the water droplets on the glass appear normal. However, when the directional light comes from behind the glass, the water droplets appear darker. You might try switching the glass material to a different lighting mode.
+**Step01**: Change the "**LightMode**" of Material to "**Surface TranslucencyVolume**"
 
-![image-20231216175157739](README/00_Res/01_Images/image-20231216175157739.png)
+![image-20231216220354599](README/00_Res/01_Images/image-20231216220354599.png)
+
+**Step02**: Set the “**RaindropsColorScale**” property value in the material instance to "1.0" or "2.0".
+
+![image-20231216220440947](README/00_Res/01_Images/image-20231216220440947.png)
+
+**Step03**: Appropriately adjust the value of the "**OpacityOverride(0-1)**" property of Material Instance, such as lowering it to: "0.005".
+
+![image-20231216221039880](README/00_Res/01_Images/image-20231216221039880.png)
 
 # GALLERY
 
