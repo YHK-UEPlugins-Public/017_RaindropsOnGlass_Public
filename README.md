@@ -2,7 +2,29 @@
 
 **Note:** Download the "**RaindropsOnGlass**" AssetPack from UE Marketplace, and copy it's "`\Content\RaindropsOnGlass`" into this Example Project "`\01_Codes\RaindropsOnGlassDemo\Content\RaindropsOnGlass`".
 
-# PRODUCT TITLE：
+
+
+# Community Communication
+
+**Add Discord.com Friend**: **YeHaike**
+
+**DemoVideos**:
+
+- **Video 01:** 
+
+​		Youtube: https://youtu.be/D8t9vL-gMa4
+
+​		Bilibili: https://www.bilibili.com/video/BV13C4y1Z74j
+
+- **Video 02:** https://youtu.be/0vzOjzo6dVs
+
+**Get this AssetPack from UE Marketplace:** https://www.unrealengine.com/marketplace/en-US/product/raindropsonglass-raindrops-effect-on-the-glass-or-the-camera-lens
+
+
+
+# Introduce
+
+## PRODUCT TITLE：
 
 **RaindropsOnGlass: Raindrops Effect on the Glass or the Camera Lens** 
 
@@ -20,11 +42,11 @@ Bilibili: https://www.bilibili.com/video/BV13C4y1Z74j
 
 ![00 (20)](README/00_Res/01_Images/00%20(20).png)
 
-# SHORT DESCRIPTION：
+## SHORT DESCRIPTION：
 
 This "**RaindropsOnGlass**" provides a simple way to create realistic raindrops effects in Unreal Engine, including static and rolling raindrops effect on character camera lens glass(Post Process Effect) and normal window glass(Normal Material Effect). Contains Post Process Effect and Glass Material Effect for simulating rolling rain droplets on glass. It is useful to a rainy day.
 
-# LONG DESCRIPTION：
+## LONG DESCRIPTION：
 
 **UE Marketplace AssetPack**: https://www.unrealengine.com/marketplace/en-US/product/raindropsonglass-raindrops-effect-on-the-glass-or-the-camera-lens
 
@@ -55,6 +77,36 @@ Contains Post Process Effect and Glass Material Effect for simulating rolling ra
 - No scene capture used
 - High performance, suitable for real-time games
 - Fully procedurally generated
+
+# Issues Fixing
+
+## 1. Raindrop Brightness Control: By default, the TypeD or TypeE glass raindrop material employs “Surface ForwardShading” LightMode, which can cause raindrops to appear darker in certain scenarios, such as scenes without lighting (e.g., Night scenes).
+
+**Issue Description**: 
+
+https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public/issues/1
+
+**TypeD Material Instance**: '`/Game/RaindropsOnGlass/ASTs/MIs/MI_RaindropsOnGlass_TypeD_BasicGlass_PCG_Inst`'
+
+**Solution**: To increase the brightness of raindrops and prevent them from appearing too dark, you can increase the “**RaindropsColorScale**” property value in the material. For instance, if the default value is “0.75,” you might try adjusting it to “4.0” or "6.0".
+
+"RaindropsColorScale": 0.75(Default Value)
+
+![image-20231216180130144](README/00_Res/01_Images/image-20231216180130144.png)
+
+"RaindropsColorScale": 4.0
+
+![image-20231216180209185](README/00_Res/01_Images/image-20231216180209185.png)
+
+"RaindropsColorScale": 6.0
+
+![image-20231216180656676](README/00_Res/01_Images/image-20231216180656676.png)
+
+**LightMode**: “**Surface ForwardShading**”(DefaultValue)
+
+In this lighting mode, when directional light shines from the front of the glass, the water droplets on the glass appear normal. However, when the directional light comes from behind the glass, the water droplets appear darker. You might try switching the glass material to a different lighting mode.
+
+![image-20231216175157739](README/00_Res/01_Images/image-20231216175157739.png)
 
 # GALLERY
 
