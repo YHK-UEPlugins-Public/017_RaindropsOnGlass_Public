@@ -82,9 +82,7 @@ Contains Post Process Effect and Glass Material Effect for simulating rolling ra
 
 ## 1. Raindrop Brightness Control: By default, the TypeD or TypeE glass raindrop material employs “Surface ForwardShading” LightMode, which can cause raindrops to appear darker in certain scenarios, such as scenes without lighting (e.g., Night scenes).
 
-**Issue Description**: 
-
-https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public/issues/1
+**Issue Description**: https://github.com/YHK-UEPlugins-Public/017_RaindropsOnGlass_Public/issues/1
 
 **TypeD Material Instance**: '`/Game/RaindropsOnGlass/ASTs/MIs/MI_RaindropsOnGlass_TypeD_BasicGlass_PCG_Inst`'
 
